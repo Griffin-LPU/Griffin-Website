@@ -113,7 +113,7 @@ body {
 }
 
 #team-main .team-main-pic {
-    width: 80%;
+    width: 55%;
     margin-top: 3rem;
 }
 
@@ -232,6 +232,84 @@ body {
     font-size: 30px;
 }
 
+#team-domain {
+    padding: 5rem  0;
+}
+
+.container {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  #myBtnContainer {
+      margin:0 3rem 3rem 3rem;
+      text-align: center;
+  }
+  
+  .filterDiv {
+    float: left;
+    width: 300px;
+    height: 300px;
+    line-height: 100px;
+    text-align: center;
+    margin: 20px;
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .btn {
+    font-size: 15px !important;
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #514b9b !important;
+    border-radius: 5px !important;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .btn:hover {
+    background-color: #3A3667 !important;
+  }
+  
+  .btn.active {
+    background-color: #9A91EA !important;
+    color: white;
+  }
+
+/* -------------------- footer -------------------- */
+
+footer h5{
+    text-decoration: underline;
+    padding:10px 0;
+}
+
+footer .col{
+    margin:0 25px;
+}
+
+footer .footer_logo{
+    width: 100px;
+}
+
+footer li{
+    padding: 7px 0;
+}
+
+footer li:hover{
+    text-decoration: underline;
+}
+
+footer .footer_link{
+    color:white;
+    font-size: 25px;
+    padding-right: 10px;
+}
+
 /* -------------------- Responsive Section -------------------- */
 
 @media (max-width: 860px) {
@@ -341,53 +419,5 @@ body {
         font-size: 20px;
         margin: 2rem 1rem 1rem 1rem;
     }
+
 }
-
-#team-domain {
-    padding: 5rem  0;
-}
-
-.container {
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-  }
-
-  #myBtnContainer {
-      margin:0 3rem 3rem 3rem;
-      text-align: center;
-  }
-  
-  .filterDiv {
-    float: left;
-    width: 300px;
-    height: 300px;
-    line-height: 100px;
-    text-align: center;
-    margin: 20px;
-    display: none;
-  }
-  
-  .show {
-    display: block;
-  }
-  
-  .btn {
-    font-size: 15px !important;
-    border: none;
-    outline: none;
-    padding: 12px 16px;
-    background-color: #514b9b !important;
-    border-radius: 5px !important;
-    cursor: pointer;
-    margin-top: 20px;
-  }
-  
-  .btn:hover {
-    background-color: #3A3667 !important;
-  }
-  
-  .btn.active {
-    background-color: #9A91EA !important;
-    color: white;
-  }
