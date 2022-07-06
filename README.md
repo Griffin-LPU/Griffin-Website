@@ -2,7 +2,7 @@
 
 # Griffin-Website
 
-<p>Vist the website at https://griffin-lpu.github.io/Griffin-Website/</p>
+<p>Visit the website at https://griffin-lpu.github.io/Griffin-Website/</p>
 
 ## Pages :-
 
