@@ -453,8 +453,38 @@ body {
 }
 
 .card-image img {
-    width: 250px;
+    width: 100%;
     height: 250px;
+}
+
+
+/*===================Footer=============================*/
+
+footer h5 {
+    text-decoration: underline;
+    padding: 10px 0;
+}
+
+footer .col {
+    margin: 0 25px;
+}
+
+footer .footer_logo {
+    width: 100px;
+}
+
+footer li {
+    padding: 7px 0;
+}
+
+footer li:hover {
+    text-decoration: underline;
+}
+
+footer .footer_link {
+    color: white;
+    font-size: 25px;
+    padding-right: 10px;
 }
 
 
@@ -572,5 +602,19 @@ body {
     }
     .countdown li span {
         font-size: calc(3.375rem * var(--smaller));
+    }
+    #about {
+        margin-top: 150px;
+        width: 400px;
+        padding: 50px;
+    }
+    .title {
+        font-size: 10px;
+    }
+    #about img {
+        width: 100%;
+    }
+    #events-card {
+        padding-top: 200px;
     }
 }
